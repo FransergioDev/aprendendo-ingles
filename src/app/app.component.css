@@ -1,0 +1,43 @@
+.container, .container-branco {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    background: #000;
+}
+
+.container-branco {
+    background: #FFF;
+}
+
+.image-game-over, .image-congratulations {
+    border: none;
+    width: 100%;
+    margin-right: auto;
+    display: block;
+    margin-left: auto;
+    height: max-content;
+}
+
+.box-btn {
+    width: 100%;
+    text-align: center;
+}
+
+.btn-novo-jogo {
+    padding: 0.4em;
+    color: #FFF;
+    cursor: pointer;
+    text-align: center;
+    font-size: 1.2em;
+    width: 8em;
+    background-color: #26b0f6;
+    border: none;
+    border-radius: 0.4em;
+}
+
+.btn-novo-jogo:hover { 
+    background-color: #6acdff;
+}

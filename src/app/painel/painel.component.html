@@ -1,0 +1,25 @@
+<div class="container">
+  <div class="jumbotron">
+    <div class="box-informacoes">
+      <div class="box-progresso">
+        <span class="progresso-title">PROGRESSO: </span>
+        <app-progresso class="barra-progresso"  [progresso]="progresso"></app-progresso>
+      </div>
+      <div class="box-vidas">
+        <span class="progresso-title">VIDAS: </span><app-tentativas class="tentativas-vidas" [tentativas]="tentativas"></app-tentativas>
+      </div>
+    </div>
+    <div class="box-traducoes">
+      <div class="col">
+        <h3><b>{{ instrucao }}</b></h3>
+        <span class="frase">{{ rodadaFrase.fraseEng }}</span>
+        <div>
+          <textarea class="form-control" rows="3" (input)="atualizarResposta($event)" [value]='resposta'></textarea>
+        </div>
+      </div>
+      <div class="box-btn">
+        <button type="button" class="btn-verificar" (click)="verificarResposta()">Verificar</button>
+      </div>
+    </div>
+  </div>
+</div>

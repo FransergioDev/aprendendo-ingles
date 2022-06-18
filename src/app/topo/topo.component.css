@@ -1,0 +1,16 @@
+@font-face {
+  font-family: Gameplay;
+  src: url(../../assets/fonts/Gameplay.ttf)
+}
+
+
+.boxnavbar{
+  background-color:#1CB0F6;
+  color:#FFF;
+  padding: 1rem;
+}
+
+.boxnavbar .navbar-brand {
+  font-size: 1.5rem;
+  font-family: Gameplay;
+}
