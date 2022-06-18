@@ -1,8 +1,8 @@
 # JOGO - Aprendendo inglês
 
-[Imgur](https://i.imgur.com/li4BgJB.png)
-[Imgur](https://i.imgur.com/rPAIbxL.png)
-[Imgur](https://i.imgur.com/li4BgJB.png)
+![alt text](https://i.imgur.com/Z9Kdohc.png)
+![alt text](https://i.imgur.com/rPAIbxL.png)
+![alt text](https://i.imgur.com/li4BgJB.png)
 
 Projeto de estudo em Angular.
 Teste seu conhecimento em inglês traduzindo as frases.
